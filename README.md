@@ -1,19 +1,14 @@
-# Trippy-Traversals
-
-# Mosaic-Maker
-A PhotoMosaic is a picture created by taking some source picture, dividing it up into rectangular sections, and replacing each section with a small thumbnail image whose color closely approximates the color of the section it replaces. Viewing the PhotoMosaic at low magnification, the individual pixels appear as the source image, while a closer examination reveals that the image is made up of many smaller tile images.
-
-![image](https://user-images.githubusercontent.com/92821191/211985087-72e687fc-b01d-4a3b-abd1-32264111aafb.png)
+# Linked-List-Discovery 
 
 
 ## Tasks
 
 
-1) 
+1) Create a Linked List with functions to add and remove from the list 
 
-2) 
+2) Create a Triple Rotate Function which rotates every three elements once to the left
 
-3) 
+3) Create a reverse function which maintains the pointers correctly for the list
 
 ## Getting Started
 ## Software 
@@ -23,7 +18,7 @@ My implementation was fully in C++ and utilized the cmake platform for build aut
 
 1. Clone the repo:
    ```sh
-   git clone 
+   git clone https://github.com/kazshah23/Linked-List-Discovery.git
    ```
 2. Make the `build` directory :
     ```sh
@@ -46,23 +41,27 @@ My implementation was fully in C++ and utilized the cmake platform for build aut
    make main && ./main
     ```    
 ## Conclusions
-1) 
-    - 
-    - 
-    - 
+1) Create a Linked List with functions to add and remove from the list 
+    - Added an insert front function which added an element to the front of the list 
+    - Added an insert back function which added an element to the back of the list 
+    - Created destroy function which would deallocate the list memory
+    - See './src/List.hpp' function insertFront() and insertBack()
   
- 2) 
-    - 
-    - 
-    - 
+ 2) Create a Triple Rotate Function which rotates every three elements once to the left
+    - Stored the pointers locally in the function
+    - Rotated every three elements with leaving the remaining ones untouched 
+    - Maintained pointers to the next and previous elements
+    - See './src/List.hpp' function triplerotate()
   
- 3) 
-    - 
-    - 
+ 3) Create a reverse function which maintains the pointers correctly for the list
+    - Given a start point and an end point, reverse the list from those two specific points
+    - See './src/List.hpp' functions reverse() and reverseNth()
  ## What I learned
- - 
- - 
- - 
+ - Linked List
+ - Reversing Linked Lists
+ - Dynamic Programming
+ - Pointers and References
+ - How to use GDB to detect memory leaks
 ## Help
 
 Any advise for common problems or issues.
