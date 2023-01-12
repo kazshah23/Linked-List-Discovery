@@ -1,5 +1,5 @@
 CMakeFiles/test.dir/tests/tests_part2.cpp.o: \
-  /workspaces/CS225/release-f22/mp_traversals/tests/tests_part2.cpp \
+  /workspaces/CS225/release-f22/mp_clean_lists/tests/tests_part2.cpp \
   /usr/include/catch2/catch_test_macros.hpp \
   /usr/include/catch2/internal/catch_test_macro_impl.hpp \
   /usr/include/catch2/catch_user_config.hpp \
@@ -231,6 +231,17 @@ CMakeFiles/test.dir/tests/tests_part2.cpp.o: \
   /usr/include/catch2/internal/catch_test_registry.hpp \
   /usr/include/catch2/interfaces/catch_interfaces_testcase.hpp \
   /usr/include/catch2/internal/catch_preprocessor_remove_parens.hpp \
+  /workspaces/CS225/release-f22/mp_clean_lists/tests/tests_helper.h \
+  /workspaces/CS225/release-f22/mp_clean_lists/lib/cs225/PNG.h \
+  /workspaces/CS225/release-f22/mp_clean_lists/lib/cs225/HSLAPixel.h \
+  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/iostream \
+  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/istream \
+  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/bits/istream.tcc \
+  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/sstream \
+  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/bits/sstream.tcc \
+  /workspaces/CS225/release-f22/mp_clean_lists/src/List.h \
+  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/iterator \
+  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/bits/stream_iterator.h \
   /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/algorithm \
   /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/bits/stl_algo.h \
   /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/bits/algorithmfwd.h \
@@ -260,33 +271,10 @@ CMakeFiles/test.dir/tests/tests_part2.cpp.o: \
   /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/debug/safe_local_iterator.h \
   /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/debug/safe_local_iterator.tcc \
   /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/pstl/execution_defs.h \
-  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/iostream \
-  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/istream \
-  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/bits/istream.tcc \
-  /workspaces/CS225/release-f22/mp_traversals/lib/cs225/PNG.h \
-  /workspaces/CS225/release-f22/mp_traversals/lib/cs225/HSLAPixel.h \
-  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/sstream \
-  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/bits/sstream.tcc \
-  /workspaces/CS225/release-f22/mp_traversals/src/Animation.h \
-  /workspaces/CS225/release-f22/mp_traversals/src/FloodFilledImage.h \
-  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/list \
-  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/bits/stl_list.h \
-  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/bits/allocated_ptr.h \
-  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/bits/list.tcc \
-  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/debug/list \
-  /workspaces/CS225/release-f22/mp_traversals/src/colorPicker/ColorPicker.h \
-  /workspaces/CS225/release-f22/mp_traversals/src/imageTraversal/ImageTraversal.h \
-  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/iterator \
-  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/bits/stream_iterator.h \
-  /workspaces/CS225/release-f22/mp_traversals/src/imageTraversal/../Point.h \
-  /workspaces/CS225/release-f22/mp_traversals/src/Point.h \
-  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/queue \
-  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/deque \
-  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/bits/stl_deque.h \
-  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/bits/deque.tcc \
-  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/debug/deque \
-  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/bits/stl_queue.h \
-  /workspaces/CS225/release-f22/mp_traversals/src/imageTraversal/DFS.h \
+  /workspaces/CS225/release-f22/mp_clean_lists/src/List-ListIterator.hpp \
+  /workspaces/CS225/release-f22/mp_clean_lists/src/List.hpp \
+  /workspaces/CS225/release-f22/mp_clean_lists/src/List-given.hpp \
+  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/random \
   /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/cmath \
   /usr/include/math.h /usr/include/aarch64-linux-gnu/bits/math-vector.h \
   /usr/include/aarch64-linux-gnu/bits/libm-simd-decl-stubs.h \
@@ -310,12 +298,10 @@ CMakeFiles/test.dir/tests/tests_part2.cpp.o: \
   /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/tr1/poly_hermite.tcc \
   /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/tr1/poly_laguerre.tcc \
   /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/tr1/riemann_zeta.tcc \
-  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/stack \
-  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/bits/stl_stack.h \
-  /workspaces/CS225/release-f22/mp_traversals/src/imageTraversal/BFS.h \
-  /workspaces/CS225/release-f22/mp_traversals/src/colorPicker/GradientColorPicker.h \
-  /workspaces/CS225/release-f22/mp_traversals/src/colorPicker/../Point.h \
-  /workspaces/CS225/release-f22/mp_traversals/src/colorPicker/GridColorPicker.h \
-  /workspaces/CS225/release-f22/mp_traversals/src/colorPicker/RainbowColorPicker.h \
-  /workspaces/CS225/release-f22/mp_traversals/src/colorPicker/SolidColorPicker.h \
-  /workspaces/CS225/release-f22/mp_traversals/src/colorPicker/MyColorPicker.h
+  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/bits/random.h \
+  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/aarch64-linux-gnu/c++/11/bits/opt_random.h \
+  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/bits/random.tcc \
+  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/numeric \
+  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/bits/stl_numeric.h \
+  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/bit \
+  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/pstl/glue_numeric_defs.h

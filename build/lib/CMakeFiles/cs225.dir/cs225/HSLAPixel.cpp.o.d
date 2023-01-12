@@ -1,6 +1,6 @@
 lib/CMakeFiles/cs225.dir/cs225/HSLAPixel.cpp.o: \
-  /workspaces/CS225/release-f22/mp_traversals/lib/cs225/HSLAPixel.cpp \
-  /workspaces/CS225/release-f22/mp_traversals/lib/cs225/HSLAPixel.h \
+  /workspaces/CS225/release-f22/mp_clean_lists/lib/cs225/HSLAPixel.cpp \
+  /workspaces/CS225/release-f22/mp_clean_lists/lib/cs225/HSLAPixel.h \
   /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/iostream \
   /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/aarch64-linux-gnu/c++/11/bits/c++config.h \
   /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/aarch64-linux-gnu/c++/11/bits/os_defines.h \

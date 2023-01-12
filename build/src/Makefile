@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /workspaces/CS225/release-f22/mp_traversals
+CMAKE_SOURCE_DIR = /workspaces/CS225/release-f22/mp_clean_lists
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /workspaces/CS225/release-f22/mp_traversals/build
+CMAKE_BINARY_DIR = /workspaces/CS225/release-f22/mp_clean_lists/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /workspaces/CS225/release-f22/mp_traversals/build && $(CMAKE_COMMAND) -E cmake_progress_start /workspaces/CS225/release-f22/mp_traversals/build/CMakeFiles /workspaces/CS225/release-f22/mp_traversals/build/src//CMakeFiles/progress.marks
-	cd /workspaces/CS225/release-f22/mp_traversals/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/CS225/release-f22/mp_traversals/build/CMakeFiles 0
+	cd /workspaces/CS225/release-f22/mp_clean_lists/build && $(CMAKE_COMMAND) -E cmake_progress_start /workspaces/CS225/release-f22/mp_clean_lists/build/CMakeFiles /workspaces/CS225/release-f22/mp_clean_lists/build/src//CMakeFiles/progress.marks
+	cd /workspaces/CS225/release-f22/mp_clean_lists/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/CS225/release-f22/mp_clean_lists/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /workspaces/CS225/release-f22/mp_traversals/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/clean
+	cd /workspaces/CS225/release-f22/mp_clean_lists/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,23 +103,23 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /workspaces/CS225/release-f22/mp_traversals/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
+	cd /workspaces/CS225/release-f22/mp_clean_lists/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /workspaces/CS225/release-f22/mp_traversals/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
+	cd /workspaces/CS225/release-f22/mp_clean_lists/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /workspaces/CS225/release-f22/mp_traversals/build && $(CMAKE_COMMAND) -P /workspaces/CS225/release-f22/mp_traversals/build/CMakeFiles/VerifyGlobs.cmake
-	cd /workspaces/CS225/release-f22/mp_traversals/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /workspaces/CS225/release-f22/mp_clean_lists/build && $(CMAKE_COMMAND) -P /workspaces/CS225/release-f22/mp_clean_lists/build/CMakeFiles/VerifyGlobs.cmake
+	cd /workspaces/CS225/release-f22/mp_clean_lists/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/CMakeFiles/src.dir/rule:
-	cd /workspaces/CS225/release-f22/mp_traversals/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/src.dir/rule
+	cd /workspaces/CS225/release-f22/mp_clean_lists/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/src.dir/rule
 .PHONY : src/CMakeFiles/src.dir/rule
 
 # Convenience name for target.
@@ -128,272 +128,8 @@ src: src/CMakeFiles/src.dir/rule
 
 # fast build rule for target.
 src/fast:
-	cd /workspaces/CS225/release-f22/mp_traversals/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/src.dir/build.make src/CMakeFiles/src.dir/build
+	cd /workspaces/CS225/release-f22/mp_clean_lists/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/src.dir/build.make src/CMakeFiles/src.dir/build
 .PHONY : src/fast
-
-Animation.o: Animation.cpp.o
-.PHONY : Animation.o
-
-# target to build an object file
-Animation.cpp.o:
-	cd /workspaces/CS225/release-f22/mp_traversals/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/src.dir/build.make src/CMakeFiles/src.dir/Animation.cpp.o
-.PHONY : Animation.cpp.o
-
-Animation.i: Animation.cpp.i
-.PHONY : Animation.i
-
-# target to preprocess a source file
-Animation.cpp.i:
-	cd /workspaces/CS225/release-f22/mp_traversals/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/src.dir/build.make src/CMakeFiles/src.dir/Animation.cpp.i
-.PHONY : Animation.cpp.i
-
-Animation.s: Animation.cpp.s
-.PHONY : Animation.s
-
-# target to generate assembly for a file
-Animation.cpp.s:
-	cd /workspaces/CS225/release-f22/mp_traversals/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/src.dir/build.make src/CMakeFiles/src.dir/Animation.cpp.s
-.PHONY : Animation.cpp.s
-
-FloodFilledImage.o: FloodFilledImage.cpp.o
-.PHONY : FloodFilledImage.o
-
-# target to build an object file
-FloodFilledImage.cpp.o:
-	cd /workspaces/CS225/release-f22/mp_traversals/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/src.dir/build.make src/CMakeFiles/src.dir/FloodFilledImage.cpp.o
-.PHONY : FloodFilledImage.cpp.o
-
-FloodFilledImage.i: FloodFilledImage.cpp.i
-.PHONY : FloodFilledImage.i
-
-# target to preprocess a source file
-FloodFilledImage.cpp.i:
-	cd /workspaces/CS225/release-f22/mp_traversals/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/src.dir/build.make src/CMakeFiles/src.dir/FloodFilledImage.cpp.i
-.PHONY : FloodFilledImage.cpp.i
-
-FloodFilledImage.s: FloodFilledImage.cpp.s
-.PHONY : FloodFilledImage.s
-
-# target to generate assembly for a file
-FloodFilledImage.cpp.s:
-	cd /workspaces/CS225/release-f22/mp_traversals/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/src.dir/build.make src/CMakeFiles/src.dir/FloodFilledImage.cpp.s
-.PHONY : FloodFilledImage.cpp.s
-
-Point.o: Point.cpp.o
-.PHONY : Point.o
-
-# target to build an object file
-Point.cpp.o:
-	cd /workspaces/CS225/release-f22/mp_traversals/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/src.dir/build.make src/CMakeFiles/src.dir/Point.cpp.o
-.PHONY : Point.cpp.o
-
-Point.i: Point.cpp.i
-.PHONY : Point.i
-
-# target to preprocess a source file
-Point.cpp.i:
-	cd /workspaces/CS225/release-f22/mp_traversals/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/src.dir/build.make src/CMakeFiles/src.dir/Point.cpp.i
-.PHONY : Point.cpp.i
-
-Point.s: Point.cpp.s
-.PHONY : Point.s
-
-# target to generate assembly for a file
-Point.cpp.s:
-	cd /workspaces/CS225/release-f22/mp_traversals/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/src.dir/build.make src/CMakeFiles/src.dir/Point.cpp.s
-.PHONY : Point.cpp.s
-
-colorPicker/GradientColorPicker.o: colorPicker/GradientColorPicker.cpp.o
-.PHONY : colorPicker/GradientColorPicker.o
-
-# target to build an object file
-colorPicker/GradientColorPicker.cpp.o:
-	cd /workspaces/CS225/release-f22/mp_traversals/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/src.dir/build.make src/CMakeFiles/src.dir/colorPicker/GradientColorPicker.cpp.o
-.PHONY : colorPicker/GradientColorPicker.cpp.o
-
-colorPicker/GradientColorPicker.i: colorPicker/GradientColorPicker.cpp.i
-.PHONY : colorPicker/GradientColorPicker.i
-
-# target to preprocess a source file
-colorPicker/GradientColorPicker.cpp.i:
-	cd /workspaces/CS225/release-f22/mp_traversals/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/src.dir/build.make src/CMakeFiles/src.dir/colorPicker/GradientColorPicker.cpp.i
-.PHONY : colorPicker/GradientColorPicker.cpp.i
-
-colorPicker/GradientColorPicker.s: colorPicker/GradientColorPicker.cpp.s
-.PHONY : colorPicker/GradientColorPicker.s
-
-# target to generate assembly for a file
-colorPicker/GradientColorPicker.cpp.s:
-	cd /workspaces/CS225/release-f22/mp_traversals/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/src.dir/build.make src/CMakeFiles/src.dir/colorPicker/GradientColorPicker.cpp.s
-.PHONY : colorPicker/GradientColorPicker.cpp.s
-
-colorPicker/GridColorPicker.o: colorPicker/GridColorPicker.cpp.o
-.PHONY : colorPicker/GridColorPicker.o
-
-# target to build an object file
-colorPicker/GridColorPicker.cpp.o:
-	cd /workspaces/CS225/release-f22/mp_traversals/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/src.dir/build.make src/CMakeFiles/src.dir/colorPicker/GridColorPicker.cpp.o
-.PHONY : colorPicker/GridColorPicker.cpp.o
-
-colorPicker/GridColorPicker.i: colorPicker/GridColorPicker.cpp.i
-.PHONY : colorPicker/GridColorPicker.i
-
-# target to preprocess a source file
-colorPicker/GridColorPicker.cpp.i:
-	cd /workspaces/CS225/release-f22/mp_traversals/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/src.dir/build.make src/CMakeFiles/src.dir/colorPicker/GridColorPicker.cpp.i
-.PHONY : colorPicker/GridColorPicker.cpp.i
-
-colorPicker/GridColorPicker.s: colorPicker/GridColorPicker.cpp.s
-.PHONY : colorPicker/GridColorPicker.s
-
-# target to generate assembly for a file
-colorPicker/GridColorPicker.cpp.s:
-	cd /workspaces/CS225/release-f22/mp_traversals/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/src.dir/build.make src/CMakeFiles/src.dir/colorPicker/GridColorPicker.cpp.s
-.PHONY : colorPicker/GridColorPicker.cpp.s
-
-colorPicker/MyColorPicker.o: colorPicker/MyColorPicker.cpp.o
-.PHONY : colorPicker/MyColorPicker.o
-
-# target to build an object file
-colorPicker/MyColorPicker.cpp.o:
-	cd /workspaces/CS225/release-f22/mp_traversals/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/src.dir/build.make src/CMakeFiles/src.dir/colorPicker/MyColorPicker.cpp.o
-.PHONY : colorPicker/MyColorPicker.cpp.o
-
-colorPicker/MyColorPicker.i: colorPicker/MyColorPicker.cpp.i
-.PHONY : colorPicker/MyColorPicker.i
-
-# target to preprocess a source file
-colorPicker/MyColorPicker.cpp.i:
-	cd /workspaces/CS225/release-f22/mp_traversals/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/src.dir/build.make src/CMakeFiles/src.dir/colorPicker/MyColorPicker.cpp.i
-.PHONY : colorPicker/MyColorPicker.cpp.i
-
-colorPicker/MyColorPicker.s: colorPicker/MyColorPicker.cpp.s
-.PHONY : colorPicker/MyColorPicker.s
-
-# target to generate assembly for a file
-colorPicker/MyColorPicker.cpp.s:
-	cd /workspaces/CS225/release-f22/mp_traversals/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/src.dir/build.make src/CMakeFiles/src.dir/colorPicker/MyColorPicker.cpp.s
-.PHONY : colorPicker/MyColorPicker.cpp.s
-
-colorPicker/RainbowColorPicker.o: colorPicker/RainbowColorPicker.cpp.o
-.PHONY : colorPicker/RainbowColorPicker.o
-
-# target to build an object file
-colorPicker/RainbowColorPicker.cpp.o:
-	cd /workspaces/CS225/release-f22/mp_traversals/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/src.dir/build.make src/CMakeFiles/src.dir/colorPicker/RainbowColorPicker.cpp.o
-.PHONY : colorPicker/RainbowColorPicker.cpp.o
-
-colorPicker/RainbowColorPicker.i: colorPicker/RainbowColorPicker.cpp.i
-.PHONY : colorPicker/RainbowColorPicker.i
-
-# target to preprocess a source file
-colorPicker/RainbowColorPicker.cpp.i:
-	cd /workspaces/CS225/release-f22/mp_traversals/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/src.dir/build.make src/CMakeFiles/src.dir/colorPicker/RainbowColorPicker.cpp.i
-.PHONY : colorPicker/RainbowColorPicker.cpp.i
-
-colorPicker/RainbowColorPicker.s: colorPicker/RainbowColorPicker.cpp.s
-.PHONY : colorPicker/RainbowColorPicker.s
-
-# target to generate assembly for a file
-colorPicker/RainbowColorPicker.cpp.s:
-	cd /workspaces/CS225/release-f22/mp_traversals/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/src.dir/build.make src/CMakeFiles/src.dir/colorPicker/RainbowColorPicker.cpp.s
-.PHONY : colorPicker/RainbowColorPicker.cpp.s
-
-colorPicker/SolidColorPicker.o: colorPicker/SolidColorPicker.cpp.o
-.PHONY : colorPicker/SolidColorPicker.o
-
-# target to build an object file
-colorPicker/SolidColorPicker.cpp.o:
-	cd /workspaces/CS225/release-f22/mp_traversals/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/src.dir/build.make src/CMakeFiles/src.dir/colorPicker/SolidColorPicker.cpp.o
-.PHONY : colorPicker/SolidColorPicker.cpp.o
-
-colorPicker/SolidColorPicker.i: colorPicker/SolidColorPicker.cpp.i
-.PHONY : colorPicker/SolidColorPicker.i
-
-# target to preprocess a source file
-colorPicker/SolidColorPicker.cpp.i:
-	cd /workspaces/CS225/release-f22/mp_traversals/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/src.dir/build.make src/CMakeFiles/src.dir/colorPicker/SolidColorPicker.cpp.i
-.PHONY : colorPicker/SolidColorPicker.cpp.i
-
-colorPicker/SolidColorPicker.s: colorPicker/SolidColorPicker.cpp.s
-.PHONY : colorPicker/SolidColorPicker.s
-
-# target to generate assembly for a file
-colorPicker/SolidColorPicker.cpp.s:
-	cd /workspaces/CS225/release-f22/mp_traversals/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/src.dir/build.make src/CMakeFiles/src.dir/colorPicker/SolidColorPicker.cpp.s
-.PHONY : colorPicker/SolidColorPicker.cpp.s
-
-imageTraversal/BFS.o: imageTraversal/BFS.cpp.o
-.PHONY : imageTraversal/BFS.o
-
-# target to build an object file
-imageTraversal/BFS.cpp.o:
-	cd /workspaces/CS225/release-f22/mp_traversals/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/src.dir/build.make src/CMakeFiles/src.dir/imageTraversal/BFS.cpp.o
-.PHONY : imageTraversal/BFS.cpp.o
-
-imageTraversal/BFS.i: imageTraversal/BFS.cpp.i
-.PHONY : imageTraversal/BFS.i
-
-# target to preprocess a source file
-imageTraversal/BFS.cpp.i:
-	cd /workspaces/CS225/release-f22/mp_traversals/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/src.dir/build.make src/CMakeFiles/src.dir/imageTraversal/BFS.cpp.i
-.PHONY : imageTraversal/BFS.cpp.i
-
-imageTraversal/BFS.s: imageTraversal/BFS.cpp.s
-.PHONY : imageTraversal/BFS.s
-
-# target to generate assembly for a file
-imageTraversal/BFS.cpp.s:
-	cd /workspaces/CS225/release-f22/mp_traversals/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/src.dir/build.make src/CMakeFiles/src.dir/imageTraversal/BFS.cpp.s
-.PHONY : imageTraversal/BFS.cpp.s
-
-imageTraversal/DFS.o: imageTraversal/DFS.cpp.o
-.PHONY : imageTraversal/DFS.o
-
-# target to build an object file
-imageTraversal/DFS.cpp.o:
-	cd /workspaces/CS225/release-f22/mp_traversals/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/src.dir/build.make src/CMakeFiles/src.dir/imageTraversal/DFS.cpp.o
-.PHONY : imageTraversal/DFS.cpp.o
-
-imageTraversal/DFS.i: imageTraversal/DFS.cpp.i
-.PHONY : imageTraversal/DFS.i
-
-# target to preprocess a source file
-imageTraversal/DFS.cpp.i:
-	cd /workspaces/CS225/release-f22/mp_traversals/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/src.dir/build.make src/CMakeFiles/src.dir/imageTraversal/DFS.cpp.i
-.PHONY : imageTraversal/DFS.cpp.i
-
-imageTraversal/DFS.s: imageTraversal/DFS.cpp.s
-.PHONY : imageTraversal/DFS.s
-
-# target to generate assembly for a file
-imageTraversal/DFS.cpp.s:
-	cd /workspaces/CS225/release-f22/mp_traversals/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/src.dir/build.make src/CMakeFiles/src.dir/imageTraversal/DFS.cpp.s
-.PHONY : imageTraversal/DFS.cpp.s
-
-imageTraversal/ImageTraversal.o: imageTraversal/ImageTraversal.cpp.o
-.PHONY : imageTraversal/ImageTraversal.o
-
-# target to build an object file
-imageTraversal/ImageTraversal.cpp.o:
-	cd /workspaces/CS225/release-f22/mp_traversals/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/src.dir/build.make src/CMakeFiles/src.dir/imageTraversal/ImageTraversal.cpp.o
-.PHONY : imageTraversal/ImageTraversal.cpp.o
-
-imageTraversal/ImageTraversal.i: imageTraversal/ImageTraversal.cpp.i
-.PHONY : imageTraversal/ImageTraversal.i
-
-# target to preprocess a source file
-imageTraversal/ImageTraversal.cpp.i:
-	cd /workspaces/CS225/release-f22/mp_traversals/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/src.dir/build.make src/CMakeFiles/src.dir/imageTraversal/ImageTraversal.cpp.i
-.PHONY : imageTraversal/ImageTraversal.cpp.i
-
-imageTraversal/ImageTraversal.s: imageTraversal/ImageTraversal.cpp.s
-.PHONY : imageTraversal/ImageTraversal.s
-
-# target to generate assembly for a file
-imageTraversal/ImageTraversal.cpp.s:
-	cd /workspaces/CS225/release-f22/mp_traversals/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/src.dir/build.make src/CMakeFiles/src.dir/imageTraversal/ImageTraversal.cpp.s
-.PHONY : imageTraversal/ImageTraversal.cpp.s
 
 # Help Target
 help:
@@ -404,39 +140,6 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... src"
-	@echo "... Animation.o"
-	@echo "... Animation.i"
-	@echo "... Animation.s"
-	@echo "... FloodFilledImage.o"
-	@echo "... FloodFilledImage.i"
-	@echo "... FloodFilledImage.s"
-	@echo "... Point.o"
-	@echo "... Point.i"
-	@echo "... Point.s"
-	@echo "... colorPicker/GradientColorPicker.o"
-	@echo "... colorPicker/GradientColorPicker.i"
-	@echo "... colorPicker/GradientColorPicker.s"
-	@echo "... colorPicker/GridColorPicker.o"
-	@echo "... colorPicker/GridColorPicker.i"
-	@echo "... colorPicker/GridColorPicker.s"
-	@echo "... colorPicker/MyColorPicker.o"
-	@echo "... colorPicker/MyColorPicker.i"
-	@echo "... colorPicker/MyColorPicker.s"
-	@echo "... colorPicker/RainbowColorPicker.o"
-	@echo "... colorPicker/RainbowColorPicker.i"
-	@echo "... colorPicker/RainbowColorPicker.s"
-	@echo "... colorPicker/SolidColorPicker.o"
-	@echo "... colorPicker/SolidColorPicker.i"
-	@echo "... colorPicker/SolidColorPicker.s"
-	@echo "... imageTraversal/BFS.o"
-	@echo "... imageTraversal/BFS.i"
-	@echo "... imageTraversal/BFS.s"
-	@echo "... imageTraversal/DFS.o"
-	@echo "... imageTraversal/DFS.i"
-	@echo "... imageTraversal/DFS.s"
-	@echo "... imageTraversal/ImageTraversal.o"
-	@echo "... imageTraversal/ImageTraversal.i"
-	@echo "... imageTraversal/ImageTraversal.s"
 .PHONY : help
 
 
@@ -448,7 +151,7 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /workspaces/CS225/release-f22/mp_traversals/build && $(CMAKE_COMMAND) -P /workspaces/CS225/release-f22/mp_traversals/build/CMakeFiles/VerifyGlobs.cmake
-	cd /workspaces/CS225/release-f22/mp_traversals/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /workspaces/CS225/release-f22/mp_clean_lists/build && $(CMAKE_COMMAND) -P /workspaces/CS225/release-f22/mp_clean_lists/build/CMakeFiles/VerifyGlobs.cmake
+	cd /workspaces/CS225/release-f22/mp_clean_lists/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -1,27 +1,18 @@
 cmake_minimum_required(VERSION 3.10)
 
 # Assignment Information (these are the *only* things you need to change here between assignments)
-set(assignment_name "mp_traversal") # Name of the assignment
+set(assignment_name "mp_lists") # Name of the assignment
 set(assignment_version 1.2022.12.0) # Version, where minor=semester_year, patch=semester_end_month, tweak=revision
 set(assignment_entrypoints "main") # Entrypoints to run the program
-set(assignment_clean_rm "../i-rainbow-bfs-2.png"
-                        "../i-rainbow-bfs.gif"
-                        "../i-rainbow-bfs.png"
-                        "../i-rainbow-dfs-2.png"
-                        "../i-rainbow-dfs.gif"
-                        "../i-rainbow-dfs.png"
-                        "../lantern-rainbow-bfs-2.png"
-                        "../lantern-rainbow-bfs.gif"
-                        "../lantern-rainbow-bfs.png"
-                        "../pacman-solid-bfs-2.png"
-                        "../pacman-solid-bfs.gif"
-                        "../pacman-solid-bfs.png"
-                        "../pacman-solid-dfs-2.png"
-                        "../pacman-solid-dfs.gif"
-                        "../pacman-solid-dfs.png"
-                        "myFloodFill.png"
-                        "myFloodFill.gif"
-                        "frames") # Generated files that should be removed with "make clean"
+set(assignment_clean_rm "actual-sort_1.png" 
+                        "actual-sort_2.png"
+                        "actual-split_1.png"
+                        "actual-split_2.png"
+                        "actual-split_3.png"
+                        "actual-merge.png"
+                        "actual-reverse.png"
+                        "actual-reverseN_1.png"
+                        "actual-reverseN_2.png") # Generated files that should be removed with "make clean"
 set(assignment_container "fa22") # Container we are targetting
 
 # Add color support to our messages.

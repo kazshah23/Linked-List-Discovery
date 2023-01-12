@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /workspaces/CS225/release-f22/mp_traversals
+CMAKE_SOURCE_DIR = /workspaces/CS225/release-f22/mp_clean_lists
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /workspaces/CS225/release-f22/mp_traversals/build
+CMAKE_BINARY_DIR = /workspaces/CS225/release-f22/mp_clean_lists/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/CS225/release-f22/mp_traversals/build/CMakeFiles /workspaces/CS225/release-f22/mp_traversals/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/CS225/release-f22/mp_clean_lists/build/CMakeFiles /workspaces/CS225/release-f22/mp_clean_lists/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/CS225/release-f22/mp_traversals/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/CS225/release-f22/mp_clean_lists/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -113,7 +113,7 @@ preinstall/fast:
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -P /workspaces/CS225/release-f22/mp_traversals/build/CMakeFiles/VerifyGlobs.cmake
+	$(CMAKE_COMMAND) -P /workspaces/CS225/release-f22/mp_clean_lists/build/CMakeFiles/VerifyGlobs.cmake
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
@@ -206,77 +206,29 @@ entry/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/entry/main.cpp.s
 .PHONY : entry/main.cpp.s
 
-tests/tests-part1-BFS-DFS.o: tests/tests-part1-BFS-DFS.cpp.o
-.PHONY : tests/tests-part1-BFS-DFS.o
+tests/tests_part1.o: tests/tests_part1.cpp.o
+.PHONY : tests/tests_part1.o
 
 # target to build an object file
-tests/tests-part1-BFS-DFS.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/tests/tests-part1-BFS-DFS.cpp.o
-.PHONY : tests/tests-part1-BFS-DFS.cpp.o
+tests/tests_part1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/tests/tests_part1.cpp.o
+.PHONY : tests/tests_part1.cpp.o
 
-tests/tests-part1-BFS-DFS.i: tests/tests-part1-BFS-DFS.cpp.i
-.PHONY : tests/tests-part1-BFS-DFS.i
-
-# target to preprocess a source file
-tests/tests-part1-BFS-DFS.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/tests/tests-part1-BFS-DFS.cpp.i
-.PHONY : tests/tests-part1-BFS-DFS.cpp.i
-
-tests/tests-part1-BFS-DFS.s: tests/tests-part1-BFS-DFS.cpp.s
-.PHONY : tests/tests-part1-BFS-DFS.s
-
-# target to generate assembly for a file
-tests/tests-part1-BFS-DFS.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/tests/tests-part1-BFS-DFS.cpp.s
-.PHONY : tests/tests-part1-BFS-DFS.cpp.s
-
-tests/tests_part1-4x4.o: tests/tests_part1-4x4.cpp.o
-.PHONY : tests/tests_part1-4x4.o
-
-# target to build an object file
-tests/tests_part1-4x4.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/tests/tests_part1-4x4.cpp.o
-.PHONY : tests/tests_part1-4x4.cpp.o
-
-tests/tests_part1-4x4.i: tests/tests_part1-4x4.cpp.i
-.PHONY : tests/tests_part1-4x4.i
+tests/tests_part1.i: tests/tests_part1.cpp.i
+.PHONY : tests/tests_part1.i
 
 # target to preprocess a source file
-tests/tests_part1-4x4.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/tests/tests_part1-4x4.cpp.i
-.PHONY : tests/tests_part1-4x4.cpp.i
+tests/tests_part1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/tests/tests_part1.cpp.i
+.PHONY : tests/tests_part1.cpp.i
 
-tests/tests_part1-4x4.s: tests/tests_part1-4x4.cpp.s
-.PHONY : tests/tests_part1-4x4.s
-
-# target to generate assembly for a file
-tests/tests_part1-4x4.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/tests/tests_part1-4x4.cpp.s
-.PHONY : tests/tests_part1-4x4.cpp.s
-
-tests/tests_part1-8x4.o: tests/tests_part1-8x4.cpp.o
-.PHONY : tests/tests_part1-8x4.o
-
-# target to build an object file
-tests/tests_part1-8x4.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/tests/tests_part1-8x4.cpp.o
-.PHONY : tests/tests_part1-8x4.cpp.o
-
-tests/tests_part1-8x4.i: tests/tests_part1-8x4.cpp.i
-.PHONY : tests/tests_part1-8x4.i
-
-# target to preprocess a source file
-tests/tests_part1-8x4.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/tests/tests_part1-8x4.cpp.i
-.PHONY : tests/tests_part1-8x4.cpp.i
-
-tests/tests_part1-8x4.s: tests/tests_part1-8x4.cpp.s
-.PHONY : tests/tests_part1-8x4.s
+tests/tests_part1.s: tests/tests_part1.cpp.s
+.PHONY : tests/tests_part1.s
 
 # target to generate assembly for a file
-tests/tests_part1-8x4.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/tests/tests_part1-8x4.cpp.s
-.PHONY : tests/tests_part1-8x4.cpp.s
+tests/tests_part1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/tests/tests_part1.cpp.s
+.PHONY : tests/tests_part1.cpp.s
 
 tests/tests_part2.o: tests/tests_part2.cpp.o
 .PHONY : tests/tests_part2.o
@@ -302,6 +254,30 @@ tests/tests_part2.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/tests/tests_part2.cpp.s
 .PHONY : tests/tests_part2.cpp.s
 
+tests/tests_student.o: tests/tests_student.cpp.o
+.PHONY : tests/tests_student.o
+
+# target to build an object file
+tests/tests_student.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/tests/tests_student.cpp.o
+.PHONY : tests/tests_student.cpp.o
+
+tests/tests_student.i: tests/tests_student.cpp.i
+.PHONY : tests/tests_student.i
+
+# target to preprocess a source file
+tests/tests_student.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/tests/tests_student.cpp.i
+.PHONY : tests/tests_student.cpp.i
+
+tests/tests_student.s: tests/tests_student.cpp.s
+.PHONY : tests/tests_student.s
+
+# target to generate assembly for a file
+tests/tests_student.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/tests/tests_student.cpp.s
+.PHONY : tests/tests_student.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -318,18 +294,15 @@ help:
 	@echo "... entry/main.o"
 	@echo "... entry/main.i"
 	@echo "... entry/main.s"
-	@echo "... tests/tests-part1-BFS-DFS.o"
-	@echo "... tests/tests-part1-BFS-DFS.i"
-	@echo "... tests/tests-part1-BFS-DFS.s"
-	@echo "... tests/tests_part1-4x4.o"
-	@echo "... tests/tests_part1-4x4.i"
-	@echo "... tests/tests_part1-4x4.s"
-	@echo "... tests/tests_part1-8x4.o"
-	@echo "... tests/tests_part1-8x4.i"
-	@echo "... tests/tests_part1-8x4.s"
+	@echo "... tests/tests_part1.o"
+	@echo "... tests/tests_part1.i"
+	@echo "... tests/tests_part1.s"
 	@echo "... tests/tests_part2.o"
 	@echo "... tests/tests_part2.i"
 	@echo "... tests/tests_part2.s"
+	@echo "... tests/tests_student.o"
+	@echo "... tests/tests_student.i"
+	@echo "... tests/tests_student.s"
 .PHONY : help
 
 
@@ -341,7 +314,7 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -P /workspaces/CS225/release-f22/mp_traversals/build/CMakeFiles/VerifyGlobs.cmake
+	$(CMAKE_COMMAND) -P /workspaces/CS225/release-f22/mp_clean_lists/build/CMakeFiles/VerifyGlobs.cmake
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

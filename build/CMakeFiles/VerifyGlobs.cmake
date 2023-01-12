@@ -3,65 +3,56 @@
 cmake_policy(SET CMP0009 NEW)
 
 # cs225_sources at lib/CMakeLists.txt:12 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/workspaces/CS225/release-f22/mp_traversals/lib/cs225/*.cpp")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/workspaces/CS225/release-f22/mp_clean_lists/lib/cs225/*.cpp")
 set(OLD_GLOB
-  "/workspaces/CS225/release-f22/mp_traversals/lib/cs225/HSLAPixel.cpp"
-  "/workspaces/CS225/release-f22/mp_traversals/lib/cs225/PNG.cpp"
+  "/workspaces/CS225/release-f22/mp_clean_lists/lib/cs225/HSLAPixel.cpp"
+  "/workspaces/CS225/release-f22/mp_clean_lists/lib/cs225/PNG.cpp"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/workspaces/CS225/release-f22/mp_traversals/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/workspaces/CS225/release-f22/mp_clean_lists/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # lodepng_sources at lib/CMakeLists.txt:6 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/workspaces/CS225/release-f22/mp_traversals/lib/lodepng/*.cpp")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/workspaces/CS225/release-f22/mp_clean_lists/lib/lodepng/*.cpp")
 set(OLD_GLOB
-  "/workspaces/CS225/release-f22/mp_traversals/lib/lodepng/lodepng.cpp"
+  "/workspaces/CS225/release-f22/mp_clean_lists/lib/lodepng/lodepng.cpp"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/workspaces/CS225/release-f22/mp_traversals/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/workspaces/CS225/release-f22/mp_clean_lists/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # lodepng_sources at lib/CMakeLists.txt:6 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/workspaces/CS225/release-f22/mp_traversals/lib/lodepng/*.h")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/workspaces/CS225/release-f22/mp_clean_lists/lib/lodepng/*.h")
 set(OLD_GLOB
-  "/workspaces/CS225/release-f22/mp_traversals/lib/lodepng/lodepng.h"
+  "/workspaces/CS225/release-f22/mp_clean_lists/lib/lodepng/lodepng.h"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/workspaces/CS225/release-f22/mp_traversals/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/workspaces/CS225/release-f22/mp_clean_lists/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # src_sources at src/CMakeLists.txt:5 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/workspaces/CS225/release-f22/mp_traversals/src/*.cpp")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/workspaces/CS225/release-f22/mp_clean_lists/src/*.hpp")
 set(OLD_GLOB
-  "/workspaces/CS225/release-f22/mp_traversals/src/Animation.cpp"
-  "/workspaces/CS225/release-f22/mp_traversals/src/FloodFilledImage.cpp"
-  "/workspaces/CS225/release-f22/mp_traversals/src/Point.cpp"
-  "/workspaces/CS225/release-f22/mp_traversals/src/colorPicker/GradientColorPicker.cpp"
-  "/workspaces/CS225/release-f22/mp_traversals/src/colorPicker/GridColorPicker.cpp"
-  "/workspaces/CS225/release-f22/mp_traversals/src/colorPicker/MyColorPicker.cpp"
-  "/workspaces/CS225/release-f22/mp_traversals/src/colorPicker/RainbowColorPicker.cpp"
-  "/workspaces/CS225/release-f22/mp_traversals/src/colorPicker/SolidColorPicker.cpp"
-  "/workspaces/CS225/release-f22/mp_traversals/src/imageTraversal/BFS.cpp"
-  "/workspaces/CS225/release-f22/mp_traversals/src/imageTraversal/DFS.cpp"
-  "/workspaces/CS225/release-f22/mp_traversals/src/imageTraversal/ImageTraversal.cpp"
+  "/workspaces/CS225/release-f22/mp_clean_lists/src/List-ListIterator.hpp"
+  "/workspaces/CS225/release-f22/mp_clean_lists/src/List-given.hpp"
+  "/workspaces/CS225/release-f22/mp_clean_lists/src/List.hpp"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/workspaces/CS225/release-f22/mp_traversals/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/workspaces/CS225/release-f22/mp_clean_lists/build/CMakeFiles/cmake.verify_globs")
 endif()
 
-# tests_src at CMakeLists.txt:148 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/workspaces/CS225/release-f22/mp_traversals/tests/*.cpp")
+# tests_src at CMakeLists.txt:139 (file)
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/workspaces/CS225/release-f22/mp_clean_lists/tests/*.cpp")
 set(OLD_GLOB
-  "/workspaces/CS225/release-f22/mp_traversals/tests/tests-part1-BFS-DFS.cpp"
-  "/workspaces/CS225/release-f22/mp_traversals/tests/tests_part1-4x4.cpp"
-  "/workspaces/CS225/release-f22/mp_traversals/tests/tests_part1-8x4.cpp"
-  "/workspaces/CS225/release-f22/mp_traversals/tests/tests_part2.cpp"
+  "/workspaces/CS225/release-f22/mp_clean_lists/tests/tests_part1.cpp"
+  "/workspaces/CS225/release-f22/mp_clean_lists/tests/tests_part2.cpp"
+  "/workspaces/CS225/release-f22/mp_clean_lists/tests/tests_student.cpp"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/workspaces/CS225/release-f22/mp_traversals/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/workspaces/CS225/release-f22/mp_clean_lists/build/CMakeFiles/cmake.verify_globs")
 endif()

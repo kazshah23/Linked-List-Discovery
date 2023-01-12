@@ -1,43 +1,23 @@
-
-#include "cs225/PNG.h"
-#include "FloodFilledImage.h"
-#include "Animation.h"
-
-#include "imageTraversal/DFS.h"
-#include "imageTraversal/BFS.h"
-
-#include "colorPicker/RainbowColorPicker.h"
-#include "colorPicker/GradientColorPicker.h"
-#include "colorPicker/GridColorPicker.h"
-#include "colorPicker/SolidColorPicker.h"
-#include "colorPicker/MyColorPicker.h"
-
-#include <iostream>
-
-using namespace cs225;
-using namespace std;
+#include "List.h"
 
 int main() {
 
-  // @todo [Part 3]
-  // - The code below assumes you have an Animation called `animation`
-  // - The code provided below produces the `myFloodFill.png` file you must
-  //   submit Part 3 of this assignment -- uncomment it when you're ready.
+  List<int> list = List<int>();
+  List<int> other = List<int>();
 
-  PNG png;       png.readFromFile("../tests/i.png");
-  FloodFilledImage image(png);
+  for (int i = 1; i <= 9; ++i) {
+    list.insertBack(i);
+    
+  }
+  for (int i = 10; i <= 16; i++) {
+    other.insertBack(i);
+  }
 
-  DFS dfs(png, Point(40, 40), 0.05);
-  MyColorPicker mcp;
-
-  image.addFloodFill(dfs, mcp);
-
-  Animation animation = image.animate(1000);
-  PNG lastFrame = animation.getFrame( animation.frameCount() - 1 );
-  lastFrame.writeToFile("myFloodFill.png");
-  animation.write("myFloodFill.gif");
   
 
+
+  std::cout << list << std::endl;
+  std::cout << other << std::endl;
 
   return 0;
 }

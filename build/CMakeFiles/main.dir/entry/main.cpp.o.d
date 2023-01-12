@@ -1,7 +1,7 @@
 CMakeFiles/main.dir/entry/main.cpp.o: \
-  /workspaces/CS225/release-f22/mp_traversals/entry/main.cpp \
-  /workspaces/CS225/release-f22/mp_traversals/lib/cs225/PNG.h \
-  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/string \
+  /workspaces/CS225/release-f22/mp_clean_lists/entry/main.cpp \
+  /workspaces/CS225/release-f22/mp_clean_lists/src/List.h \
+  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/iterator \
   /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/aarch64-linux-gnu/c++/11/bits/c++config.h \
   /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/aarch64-linux-gnu/c++/11/bits/os_defines.h \
   /usr/include/features.h /usr/include/features-time64.h \
@@ -13,36 +13,22 @@ CMakeFiles/main.dir/entry/main.cpp.o: \
   /usr/include/aarch64-linux-gnu/gnu/stubs-lp64.h \
   /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/aarch64-linux-gnu/c++/11/bits/cpu_defines.h \
   /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/pstl/pstl_config.h \
-  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/bits/stringfwd.h \
-  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/bits/memoryfwd.h \
-  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/bits/char_traits.h \
-  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/bits/stl_algobase.h \
-  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/bits/functexcept.h \
-  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/bits/exception_defines.h \
-  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/bits/cpp_type_traits.h \
-  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/ext/type_traits.h \
-  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/ext/numeric_traits.h \
-  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/bits/stl_pair.h \
-  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/bits/move.h \
-  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/type_traits \
   /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/bits/stl_iterator_base_types.h \
+  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/type_traits \
   /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/bits/stl_iterator_base_funcs.h \
   /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/bits/concept_check.h \
   /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/debug/assertions.h \
   /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/bits/stl_iterator.h \
+  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/bits/cpp_type_traits.h \
+  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/ext/type_traits.h \
+  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/bits/move.h \
   /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/bits/ptr_traits.h \
   /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/debug/stl_iterator.h \
   /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/debug/helper_functions.h \
-  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/debug/debug.h \
-  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/debug/macros.h \
-  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/debug/functions.h \
-  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/bits/stl_function.h \
-  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/backward/binders.h \
-  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/debug/formatter.h \
-  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/typeinfo \
-  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/bits/exception.h \
-  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/bits/hash_bytes.h \
-  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/bits/predefined_ops.h \
+  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/bits/stl_pair.h \
+  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/iosfwd \
+  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/bits/stringfwd.h \
+  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/bits/memoryfwd.h \
   /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/bits/postypes.h \
   /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/cwchar \
   /usr/include/wchar.h \
@@ -59,30 +45,29 @@ CMakeFiles/main.dir/entry/main.cpp.o: \
   /usr/include/aarch64-linux-gnu/bits/types/FILE.h \
   /usr/include/aarch64-linux-gnu/bits/types/locale_t.h \
   /usr/include/aarch64-linux-gnu/bits/types/__locale_t.h \
-  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/cstdint \
-  /usr/lib/llvm-14/lib/clang/14.0.0/include/stdint.h \
-  /usr/include/stdint.h /usr/include/aarch64-linux-gnu/bits/types.h \
-  /usr/include/aarch64-linux-gnu/bits/typesizes.h \
-  /usr/include/aarch64-linux-gnu/bits/time64.h \
-  /usr/include/aarch64-linux-gnu/bits/stdint-intn.h \
-  /usr/include/aarch64-linux-gnu/bits/stdint-uintn.h \
-  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/bits/allocator.h \
-  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/aarch64-linux-gnu/c++/11/bits/c++allocator.h \
-  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/ext/new_allocator.h \
-  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/new \
+  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/bits/stream_iterator.h \
+  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/debug/debug.h \
+  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/debug/macros.h \
+  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/debug/functions.h \
+  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/bits/stl_function.h \
+  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/backward/binders.h \
+  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/debug/formatter.h \
+  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/typeinfo \
+  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/bits/exception.h \
+  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/bits/hash_bytes.h \
+  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/bits/streambuf_iterator.h \
+  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/streambuf \
   /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/bits/localefwd.h \
   /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/aarch64-linux-gnu/c++/11/bits/c++locale.h \
   /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/clocale \
   /usr/include/locale.h /usr/include/aarch64-linux-gnu/bits/locale.h \
-  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/iosfwd \
   /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/cctype \
-  /usr/include/ctype.h /usr/include/aarch64-linux-gnu/bits/endian.h \
+  /usr/include/ctype.h /usr/include/aarch64-linux-gnu/bits/types.h \
+  /usr/include/aarch64-linux-gnu/bits/typesizes.h \
+  /usr/include/aarch64-linux-gnu/bits/time64.h \
+  /usr/include/aarch64-linux-gnu/bits/endian.h \
   /usr/include/aarch64-linux-gnu/bits/endianness.h \
-  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/bits/ostream_insert.h \
-  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/bits/cxxabi_forced.h \
-  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/bits/range_access.h \
-  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/initializer_list \
-  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/bits/basic_string.h \
+  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/bits/ios_base.h \
   /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/ext/atomicity.h \
   /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/aarch64-linux-gnu/c++/11/bits/gthr.h \
   /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/aarch64-linux-gnu/c++/11/bits/gthr-default.h \
@@ -112,6 +97,28 @@ CMakeFiles/main.dir/entry/main.cpp.o: \
   /usr/include/aarch64-linux-gnu/bits/pthread_stack_min-dynamic.h \
   /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/aarch64-linux-gnu/c++/11/bits/atomic_word.h \
   /usr/include/aarch64-linux-gnu/sys/single_threaded.h \
+  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/bits/locale_classes.h \
+  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/string \
+  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/bits/char_traits.h \
+  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/bits/stl_algobase.h \
+  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/bits/functexcept.h \
+  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/bits/exception_defines.h \
+  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/ext/numeric_traits.h \
+  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/bits/predefined_ops.h \
+  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/cstdint \
+  /usr/lib/llvm-14/lib/clang/14.0.0/include/stdint.h \
+  /usr/include/stdint.h \
+  /usr/include/aarch64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/aarch64-linux-gnu/bits/stdint-uintn.h \
+  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/bits/allocator.h \
+  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/aarch64-linux-gnu/c++/11/bits/c++allocator.h \
+  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/ext/new_allocator.h \
+  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/new \
+  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/bits/ostream_insert.h \
+  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/bits/cxxabi_forced.h \
+  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/bits/range_access.h \
+  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/initializer_list \
+  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/bits/basic_string.h \
   /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/ext/alloc_traits.h \
   /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/bits/alloc_traits.h \
   /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/bits/stl_construct.h \
@@ -145,106 +152,75 @@ CMakeFiles/main.dir/entry/main.cpp.o: \
   /usr/include/aarch64-linux-gnu/bits/types/error_t.h \
   /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/bits/charconv.h \
   /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/bits/basic_string.tcc \
-  /workspaces/CS225/release-f22/mp_traversals/lib/cs225/HSLAPixel.h \
-  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/iostream \
-  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/ostream \
-  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/ios \
+  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/bits/locale_classes.tcc \
+  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/system_error \
+  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/aarch64-linux-gnu/c++/11/bits/error_constants.h \
+  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/stdexcept \
   /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/exception \
   /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/bits/exception_ptr.h \
   /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/bits/cxxabi_init_exception.h \
   /usr/lib/llvm-14/lib/clang/14.0.0/include/__stddef_max_align_t.h \
   /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/bits/nested_exception.h \
-  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/bits/ios_base.h \
-  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/bits/locale_classes.h \
-  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/bits/locale_classes.tcc \
-  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/system_error \
-  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/aarch64-linux-gnu/c++/11/bits/error_constants.h \
-  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/stdexcept \
-  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/streambuf \
   /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/bits/streambuf.tcc \
+  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/iostream \
+  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/ostream \
+  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/ios \
   /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/bits/basic_ios.h \
   /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/bits/locale_facets.h \
   /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/cwctype \
   /usr/include/wctype.h \
   /usr/include/aarch64-linux-gnu/bits/wctype-wchar.h \
   /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/aarch64-linux-gnu/c++/11/bits/ctype_base.h \
-  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/bits/streambuf_iterator.h \
   /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/aarch64-linux-gnu/c++/11/bits/ctype_inline.h \
   /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/bits/locale_facets.tcc \
   /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/bits/basic_ios.tcc \
   /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/bits/ostream.tcc \
   /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/istream \
   /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/bits/istream.tcc \
-  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/sstream \
-  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/bits/sstream.tcc \
-  /workspaces/CS225/release-f22/mp_traversals/src/FloodFilledImage.h \
-  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/list \
-  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/bits/stl_list.h \
-  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/bits/allocated_ptr.h \
+  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/algorithm \
+  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/utility \
+  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/bits/stl_relops.h \
+  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/bits/stl_algo.h \
+  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/bits/algorithmfwd.h \
+  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/bits/stl_heap.h \
+  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/bits/stl_tempbuf.h \
+  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/bits/uniform_int_dist.h \
+  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/pstl/glue_algorithm_defs.h \
+  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/functional \
+  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/tuple \
+  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/array \
+  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/bits/uses_allocator.h \
+  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/bits/invoke.h \
+  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/bits/refwrap.h \
+  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/bits/std_function.h \
+  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/unordered_map \
   /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/ext/aligned_buffer.h \
-  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/bits/list.tcc \
-  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/debug/list \
-  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/debug/safe_sequence.h \
+  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/bits/hashtable.h \
+  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/bits/hashtable_policy.h \
+  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/bits/enable_special_members.h \
+  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/bits/node_handle.h \
+  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/bits/unordered_map.h \
+  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/bits/erase_if.h \
+  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/debug/unordered_map \
+  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/debug/safe_unordered_container.h \
+  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/debug/safe_unordered_base.h \
   /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/debug/safe_base.h \
   /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/ext/concurrence.h \
-  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/debug/safe_sequence.tcc \
+  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/debug/safe_unordered_container.tcc \
   /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/debug/safe_container.h \
   /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/debug/safe_iterator.h \
   /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/debug/safe_iterator.tcc \
-  /workspaces/CS225/release-f22/mp_traversals/src/colorPicker/ColorPicker.h \
-  /workspaces/CS225/release-f22/mp_traversals/src/imageTraversal/ImageTraversal.h \
-  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/iterator \
-  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/bits/stream_iterator.h \
-  /workspaces/CS225/release-f22/mp_traversals/src/imageTraversal/../Point.h \
+  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/debug/safe_local_iterator.h \
+  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/debug/safe_local_iterator.tcc \
   /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/vector \
   /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/bits/stl_uninitialized.h \
   /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/bits/stl_vector.h \
   /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/bits/stl_bvector.h \
   /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/bits/vector.tcc \
   /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/debug/vector \
-  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/utility \
-  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/bits/stl_relops.h \
-  /workspaces/CS225/release-f22/mp_traversals/src/Point.h \
-  /workspaces/CS225/release-f22/mp_traversals/src/Animation.h \
-  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/queue \
-  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/deque \
-  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/bits/stl_deque.h \
-  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/bits/deque.tcc \
-  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/debug/deque \
-  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/bits/stl_heap.h \
-  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/bits/stl_queue.h \
-  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/bits/uses_allocator.h \
-  /workspaces/CS225/release-f22/mp_traversals/src/imageTraversal/DFS.h \
-  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/cmath \
-  /usr/include/math.h /usr/include/aarch64-linux-gnu/bits/math-vector.h \
-  /usr/include/aarch64-linux-gnu/bits/libm-simd-decl-stubs.h \
-  /usr/include/aarch64-linux-gnu/bits/flt-eval-method.h \
-  /usr/include/aarch64-linux-gnu/bits/fp-logb.h \
-  /usr/include/aarch64-linux-gnu/bits/fp-fast.h \
-  /usr/include/aarch64-linux-gnu/bits/mathcalls-helper-functions.h \
-  /usr/include/aarch64-linux-gnu/bits/mathcalls.h \
-  /usr/include/aarch64-linux-gnu/bits/mathcalls-narrow.h \
-  /usr/include/aarch64-linux-gnu/bits/iscanonical.h \
-  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/bits/specfun.h \
-  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/limits \
-  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/tr1/gamma.tcc \
-  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/tr1/special_function_util.h \
-  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/tr1/bessel_function.tcc \
-  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/tr1/beta_function.tcc \
-  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/tr1/ell_integral.tcc \
-  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/tr1/exp_integral.tcc \
-  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/tr1/hypergeometric.tcc \
-  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/tr1/legendre_function.tcc \
-  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/tr1/modified_bessel_func.tcc \
-  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/tr1/poly_hermite.tcc \
-  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/tr1/poly_laguerre.tcc \
-  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/tr1/riemann_zeta.tcc \
-  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/stack \
-  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/bits/stl_stack.h \
-  /workspaces/CS225/release-f22/mp_traversals/src/imageTraversal/BFS.h \
-  /workspaces/CS225/release-f22/mp_traversals/src/colorPicker/RainbowColorPicker.h \
-  /workspaces/CS225/release-f22/mp_traversals/src/colorPicker/GradientColorPicker.h \
-  /workspaces/CS225/release-f22/mp_traversals/src/colorPicker/../Point.h \
-  /workspaces/CS225/release-f22/mp_traversals/src/colorPicker/GridColorPicker.h \
-  /workspaces/CS225/release-f22/mp_traversals/src/colorPicker/SolidColorPicker.h \
-  /workspaces/CS225/release-f22/mp_traversals/src/colorPicker/MyColorPicker.h
+  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/debug/safe_sequence.h \
+  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/debug/safe_sequence.tcc \
+  /usr/bin/../lib/gcc/aarch64-linux-gnu/11/../../../../include/c++/11/pstl/execution_defs.h \
+  /workspaces/CS225/release-f22/mp_clean_lists/src/List-ListIterator.hpp \
+  /workspaces/CS225/release-f22/mp_clean_lists/src/List.hpp \
+  /workspaces/CS225/release-f22/mp_clean_lists/src/List-given.hpp
